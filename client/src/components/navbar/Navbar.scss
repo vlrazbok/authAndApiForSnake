@@ -1,0 +1,18 @@
+.nav{
+  
+  &-wrapper{
+    font-size: 25px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-list{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    &__item{
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
